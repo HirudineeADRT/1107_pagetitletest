@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "79f958ea-f472-4397-82df-7000f34e3661": {
+        "id": "79f958ea-f472-4397-82df-7000f34e3661",
+        "parent": null,
+        "name": "1107_pagetitletest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "6414ee49-e3b4-45aa-989d-b30918c0b6e6"
+        ],
+        "isRemovable": false,
+        "filePath": "1107_pagetitletest"
+      },
+      "6414ee49-e3b4-45aa-989d-b30918c0b6e6": {
+        "id": "6414ee49-e3b4-45aa-989d-b30918c0b6e6",
+        "parent": "79f958ea-f472-4397-82df-7000f34e3661",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1107_pagetitletest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "79f958ea-f472-4397-82df-7000f34e3661",
+    "openFiles": [
+      "6414ee49-e3b4-45aa-989d-b30918c0b6e6"
+    ],
+    "currentFileId": "6414ee49-e3b4-45aa-989d-b30918c0b6e6",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "1107_pagetitletest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562830773054
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "1107_pagetitletest",
+      "url": "https://github.com/HirudineeADRT/1107_pagetitletest"
+    }
+  }
+}

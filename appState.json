@@ -135,13 +135,8 @@
       }
     },
     "rootNode": "79f958ea-f472-4397-82df-7000f34e3661",
-    "openFiles": [
-      "6414ee49-e3b4-45aa-989d-b30918c0b6e6",
-      "c4cbfa0f-923d-413c-bfee-a412feff52c1",
-      "afdccc04-884a-418f-a0cd-cb148f662061",
-      "db030231-8534-495c-a895-ade73e587cec"
-    ],
-    "currentFileId": "afdccc04-884a-418f-a0cd-cb148f662061",
+    "openFiles": [],
+    "currentFileId": "6414ee49-e3b4-45aa-989d-b30918c0b6e6",
     "resources": {
       "ddbjjl": {
         "name": "ddbjjl",
@@ -957,7 +952,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576660094947
+    "lastSave": 1576660241142
   },
   "VCS_STATE": {
     "provider": "GitHub",

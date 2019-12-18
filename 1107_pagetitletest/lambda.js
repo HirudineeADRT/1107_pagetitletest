@@ -7,7 +7,7 @@ exports.handler = function (event, context, callback) {
     ddb.get({
         TableName: "jjl",
         Key: {
-            kk: "ll"
+            kk: "llk"
         }
     }).promise()
         .then(data => {

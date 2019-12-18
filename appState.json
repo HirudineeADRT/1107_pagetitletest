@@ -22,9 +22,8 @@
         "children": [],
         "isRemovable": true,
         "filePath": "1107_pagetitletest/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
-          "runtime": "nodejs8.10",
+          "runtime": "nodejs10.x",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
@@ -33,7 +32,6 @@
         "triggers": []
       }
     },
-    "deletedFiles": [],
     "rootNode": "79f958ea-f472-4397-82df-7000f34e3661",
     "openFiles": [
       "6414ee49-e3b4-45aa-989d-b30918c0b6e6"
@@ -42,7 +40,7 @@
     "resources": {},
     "customTemplate": {
       "dialect": null,
-      "definitions": {}
+      "definitions": null
     },
     "envVariables": [
       {
@@ -65,7 +63,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562830773054
+    "lastSave": 1576655163792
   },
   "VCS_STATE": {
     "provider": "GitHub",

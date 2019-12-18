@@ -25,6 +25,5 @@ def handler(event, context):
             print(e)
             raise(e)
 
-        
-    
+         
     return {"message": "Successfully executed"}

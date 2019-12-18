@@ -80,20 +80,20 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "afdccc04-884a-418f-a0cd-cb148f662061"
+          "0501827a-93ed-4c5b-89ee-bc8d5a7c3b37"
         ],
         "isRemovable": true,
         "filePath": "1107_pagetitletest/subdir"
       },
       "afdccc04-884a-418f-a0cd-cb148f662061": {
         "id": "afdccc04-884a-418f-a0cd-cb148f662061",
-        "parent": "4e137113-229e-45c3-9215-a0e09d2adb1b",
+        "parent": "0501827a-93ed-4c5b-89ee-bc8d5a7c3b37",
         "name": "subdir11.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "1107_pagetitletest/subdir/subdir11.js",
+        "filePath": "1107_pagetitletest/subdir/subdir2/subdir11.js",
         "config": {
           "runtime": "nodejs10.x",
           "handler": "handler",
@@ -143,15 +143,22 @@
         "children": [],
         "isRemovable": true,
         "filePath": "1107_pagetitletest/hiru/sigma-trail-1576489583506.txt"
+      },
+      "0501827a-93ed-4c5b-89ee-bc8d5a7c3b37": {
+        "id": "0501827a-93ed-4c5b-89ee-bc8d5a7c3b37",
+        "parent": "4e137113-229e-45c3-9215-a0e09d2adb1b",
+        "name": "subdir2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "afdccc04-884a-418f-a0cd-cb148f662061"
+        ],
+        "isRemovable": true,
+        "filePath": "1107_pagetitletest/subdir/subdir2"
       }
     },
     "rootNode": "79f958ea-f472-4397-82df-7000f34e3661",
-    "openFiles": [
-      "6414ee49-e3b4-45aa-989d-b30918c0b6e6",
-      "c4cbfa0f-923d-413c-bfee-a412feff52c1",
-      "afdccc04-884a-418f-a0cd-cb148f662061",
-      "29f68c2e-81f6-4e5e-9df5-3740e87e9c72"
-    ],
+    "openFiles": [],
     "currentFileId": "29f68c2e-81f6-4e5e-9df5-3740e87e9c72",
     "resources": {
       "ddbjjl": {
@@ -1282,7 +1289,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576664435015
+    "lastSave": 1576664585695
   },
   "VCS_STATE": {
     "provider": "GitHub",

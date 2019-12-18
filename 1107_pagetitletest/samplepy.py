@@ -27,7 +27,7 @@ def handler(event, context):
             raise(e)
             try:
                 data = cognito_idp.list_users(
-                    UserPoolId=environ["UserPoolId_cognitoUnnamed"],
+                    UserPoolId=environ["UserPoolId_cognitosample1"],
                     Limit=10
                 )
             except BaseException as e:

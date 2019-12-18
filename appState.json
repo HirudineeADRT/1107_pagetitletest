@@ -110,7 +110,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "db030231-8534-495c-a895-ade73e587cec"
+          "db030231-8534-495c-a895-ade73e587cec",
+          "29f68c2e-81f6-4e5e-9df5-3740e87e9c72"
         ],
         "isRemovable": true,
         "filePath": "1107_pagetitletest/hiru"
@@ -132,15 +133,26 @@
           "layers": []
         },
         "triggers": []
+      },
+      "29f68c2e-81f6-4e5e-9df5-3740e87e9c72": {
+        "id": "29f68c2e-81f6-4e5e-9df5-3740e87e9c72",
+        "parent": "e50974ab-1b1d-40fa-b643-602577f4cd3e",
+        "name": "sigma-trail-1576489583506.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1107_pagetitletest/hiru/sigma-trail-1576489583506.txt"
       }
     },
     "rootNode": "79f958ea-f472-4397-82df-7000f34e3661",
     "openFiles": [
       "6414ee49-e3b4-45aa-989d-b30918c0b6e6",
       "c4cbfa0f-923d-413c-bfee-a412feff52c1",
-      "afdccc04-884a-418f-a0cd-cb148f662061"
+      "afdccc04-884a-418f-a0cd-cb148f662061",
+      "29f68c2e-81f6-4e5e-9df5-3740e87e9c72"
     ],
-    "currentFileId": "afdccc04-884a-418f-a0cd-cb148f662061",
+    "currentFileId": "29f68c2e-81f6-4e5e-9df5-3740e87e9c72",
     "resources": {
       "ddbjjl": {
         "name": "ddbjjl",
@@ -1270,7 +1282,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576664261882
+    "lastSave": 1576664435015
   },
   "VCS_STATE": {
     "provider": "GitHub",

@@ -76,14 +76,14 @@
       "4e137113-229e-45c3-9215-a0e09d2adb1b": {
         "id": "4e137113-229e-45c3-9215-a0e09d2adb1b",
         "parent": "79f958ea-f472-4397-82df-7000f34e3661",
-        "name": "test",
+        "name": "subdir",
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
           "afdccc04-884a-418f-a0cd-cb148f662061"
         ],
         "isRemovable": true,
-        "filePath": "1107_pagetitletest/test"
+        "filePath": "1107_pagetitletest/subdir"
       },
       "afdccc04-884a-418f-a0cd-cb148f662061": {
         "id": "afdccc04-884a-418f-a0cd-cb148f662061",
@@ -93,7 +93,7 @@
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "1107_pagetitletest/test/subdir1.js",
+        "filePath": "1107_pagetitletest/subdir/subdir1.js",
         "config": {
           "runtime": "nodejs10.x",
           "handler": "handler",
@@ -952,7 +952,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576660241142
+    "lastSave": 1576660376719
   },
   "VCS_STATE": {
     "provider": "GitHub",

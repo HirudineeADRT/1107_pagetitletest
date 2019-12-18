@@ -13,5 +13,5 @@ exports.handler = async (event) => {
             // error handling goes here
         });
 
-    return { "message": "Successfully executed" };
+    return { "message": "Successfully execute d" };
 };

@@ -3,15 +3,15 @@ const cognito_idp = new AWS.CognitoIdentityServiceProvider();
 
 exports.handler = async (event) => {
     cognito_idp.listUsers({
-        UserPoolId: process.env.UserPoolId_cognitohiru,
+        UserPoolId: process.env.UserPoolId_cognitolkjhg,
         Limit: 10
     }).promise()
         .then(data => {
             // your code goes here
         })
         .catch(err => {
-            // error handling goes here
+            // error handling goes here 
         });
 
-    return { "message": "Successfully executed" };
+    return { "message": "Successfully execu ted" };
 };

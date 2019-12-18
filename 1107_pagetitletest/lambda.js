@@ -1,3 +1,5 @@
+
+const cognito_idp = new AWS.CognitoIdentityServiceProvider();
 let AWS = require('aws-sdk');
 let SL_AWS = require('slappforge-sdk-aws');
 const sqs = new SL_AWS.SQS(AWS);
@@ -38,7 +40,6 @@ exports.handler = function (event, context, callback) {
         .catch(err => {
             // error handling goes here
         });
-
 
     callback(null, { "message": "Successfully executed //" });
 

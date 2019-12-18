@@ -3,6 +3,7 @@ sqs = boto3.client("sqs")
 cognito_idp = boto3.client("cognito-idp")
 from os import environ
 
+
 def handler(event, context):
     try:
         data = cognito_idp.list_users(
@@ -24,6 +25,14 @@ def handler(event, context):
         except BaseException as e:
             print(e)
             raise(e)
+            try:
+                data = cognito_idp.list_users(
+                    UserPoolId=environ["UserPoolId_cognitoUnnamed"],
+                    Limit=10
+                )
+            except BaseException as e:
+                print(e)
+                raise(e)
 
          
     return {"message": "Successfully executed "}

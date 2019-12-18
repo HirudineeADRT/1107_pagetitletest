@@ -10,7 +10,7 @@ exports.handler = async (event) => {
             // your code goes here
         })
         .catch(err => {
-            // error handling goes here
+            // error handling goes here 12
         });
 
     return { "message": "Successfully execute d" };

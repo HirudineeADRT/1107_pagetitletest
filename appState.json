@@ -29,7 +29,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "cwell",
+            "config": {}
+          }
+        ]
       }
     },
     "rootNode": "79f958ea-f472-4397-82df-7000f34e3661",
@@ -37,7 +42,78 @@
       "6414ee49-e3b4-45aa-989d-b30918c0b6e6"
     ],
     "currentFileId": "6414ee49-e3b4-45aa-989d-b30918c0b6e6",
-    "resources": {},
+    "resources": {
+      "ddbjjl": {
+        "name": "ddbjjl",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 0,
+          "operation": "get",
+          "table": {
+            "arn": "",
+            "name": "jjl",
+            "partitionKey": "kk",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 0
+          },
+          "isGlobalEditMode": false,
+          "parameters": {
+            "Key": {
+              "kk": "ll"
+            },
+            "Item": {},
+            "ExpressionAttributeValues": {}
+          },
+          "triggerParams": {},
+          "validator": {
+            "validatableFields": {},
+            "validity": true
+          },
+          "valid": true
+        }
+      },
+      "cwell": {
+        "name": "cwell",
+        "type": "CLOUD_WATCH",
+        "config": {
+          "mode": 0,
+          "name": "ll",
+          "description": "",
+          "scheduleExpression": "rate(1 day)"
+        }
+      },
+      "sqshirru": {
+        "name": "sqshirru",
+        "type": "SQS",
+        "config": {
+          "mode": 0,
+          "existing": false,
+          "name": "hirru",
+          "url": "https://sqs.us-east-1.amazonaws.com/318300609668/hirru",
+          "selectedRegion": "us-east-1",
+          "deliveryDelay": 0,
+          "deliveryDelayUnit": "seconds",
+          "useRedrivePolicy": false,
+          "useSSE": false,
+          "kmsCustomerMasterKey": "default",
+          "accountId": "318300609668",
+          "dataKeyReusePeriod": 5,
+          "queueType": "standardQueue",
+          "defaultVisibilityTimeout": 30,
+          "defaultVisibilityTimeoutUnit": "seconds",
+          "messageRetentionPeriod": 4,
+          "messageRetentionPeriodUnit": "days",
+          "maximumMessageSize": 256,
+          "receiveMessageWaitTime": 0,
+          "deadLetterQueueName": "",
+          "contentBasedDeduplication": false
+        }
+      }
+    },
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -53,7 +129,22 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "javascript",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        },
+        "slappforge-sdk-aws": {
+          "name": "slappforge-sdk-aws",
+          "language": "javascript",
+          "version": "0.0.5",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -63,7 +154,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576655163792
+    "lastSave": 1576655386769
   },
   "VCS_STATE": {
     "provider": "GitHub",

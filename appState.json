@@ -13,7 +13,8 @@
           "ded36bb2-2846-4d04-96fb-3f255bc994c0",
           "4e137113-229e-45c3-9215-a0e09d2adb1b",
           "e50974ab-1b1d-40fa-b643-602577f4cd3e",
-          "0675eb50-ab80-4b37-a889-a7710b3f0894"
+          "0675eb50-ab80-4b37-a889-a7710b3f0894",
+          "9d7353f8-d982-43d9-be55-25bdbf9dcf3f"
         ],
         "isRemovable": false,
         "filePath": "1107_pagetitletest"
@@ -185,14 +186,35 @@
         "children": [],
         "isRemovable": true,
         "filePath": "1107_pagetitletest/induniltest.json"
+      },
+      "9d7353f8-d982-43d9-be55-25bdbf9dcf3f": {
+        "id": "9d7353f8-d982-43d9-be55-25bdbf9dcf3f",
+        "parent": "79f958ea-f472-4397-82df-7000f34e3661",
+        "name": "hiru2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "0336056b-4817-493e-8a7a-6b61927f3980"
+        ],
+        "isRemovable": true,
+        "filePath": "1107_pagetitletest/hiru2"
+      },
+      "0336056b-4817-493e-8a7a-6b61927f3980": {
+        "id": "0336056b-4817-493e-8a7a-6b61927f3980",
+        "parent": "9d7353f8-d982-43d9-be55-25bdbf9dcf3f",
+        "name": "testjsn.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1107_pagetitletest/hiru2/testjsn.json"
       }
     },
     "rootNode": "79f958ea-f472-4397-82df-7000f34e3661",
     "openFiles": [
-      "65f1283a-08f8-440c-ba75-80574ce8cc4e",
-      "0675eb50-ab80-4b37-a889-a7710b3f0894"
+      "0336056b-4817-493e-8a7a-6b61927f3980"
     ],
-    "currentFileId": "0675eb50-ab80-4b37-a889-a7710b3f0894",
+    "currentFileId": "0336056b-4817-493e-8a7a-6b61927f3980",
     "resources": {
       "ddbjjl": {
         "name": "ddbjjl",
@@ -1322,7 +1344,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576743388307
+    "lastSave": 1576747486622
   },
   "VCS_STATE": {
     "provider": "GitHub",

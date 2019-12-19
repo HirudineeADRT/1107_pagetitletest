@@ -12,7 +12,8 @@
           "c4cbfa0f-923d-413c-bfee-a412feff52c1",
           "ded36bb2-2846-4d04-96fb-3f255bc994c0",
           "4e137113-229e-45c3-9215-a0e09d2adb1b",
-          "e50974ab-1b1d-40fa-b643-602577f4cd3e"
+          "e50974ab-1b1d-40fa-b643-602577f4cd3e",
+          "0675eb50-ab80-4b37-a889-a7710b3f0894"
         ],
         "isRemovable": false,
         "filePath": "1107_pagetitletest"
@@ -111,7 +112,8 @@
         "isDirectory": true,
         "children": [
           "db030231-8534-495c-a895-ade73e587cec",
-          "29f68c2e-81f6-4e5e-9df5-3740e87e9c72"
+          "29f68c2e-81f6-4e5e-9df5-3740e87e9c72",
+          "65f1283a-08f8-440c-ba75-80574ce8cc4e"
         ],
         "isRemovable": true,
         "filePath": "1107_pagetitletest/hiru"
@@ -155,11 +157,42 @@
         ],
         "isRemovable": true,
         "filePath": "1107_pagetitletest/subdir/subdir2"
+      },
+      "65f1283a-08f8-440c-ba75-80574ce8cc4e": {
+        "id": "65f1283a-08f8-440c-ba75-80574ce8cc4e",
+        "parent": "e50974ab-1b1d-40fa-b643-602577f4cd3e",
+        "name": "sample-1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1107_pagetitletest/hiru/sample-1.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "0675eb50-ab80-4b37-a889-a7710b3f0894": {
+        "id": "0675eb50-ab80-4b37-a889-a7710b3f0894",
+        "parent": "79f958ea-f472-4397-82df-7000f34e3661",
+        "name": "induniltest.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1107_pagetitletest/induniltest.json"
       }
     },
     "rootNode": "79f958ea-f472-4397-82df-7000f34e3661",
-    "openFiles": [],
-    "currentFileId": "29f68c2e-81f6-4e5e-9df5-3740e87e9c72",
+    "openFiles": [
+      "65f1283a-08f8-440c-ba75-80574ce8cc4e",
+      "0675eb50-ab80-4b37-a889-a7710b3f0894"
+    ],
+    "currentFileId": "0675eb50-ab80-4b37-a889-a7710b3f0894",
     "resources": {
       "ddbjjl": {
         "name": "ddbjjl",
@@ -1289,7 +1322,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576664585695
+    "lastSave": 1576743388307
   },
   "VCS_STATE": {
     "provider": "GitHub",
